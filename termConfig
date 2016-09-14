@@ -1,0 +1,34 @@
+[global_config]
+  focus = system
+  title_transmit_bg_color = "#0076c9"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = Galaxy
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      profile = Galaxy
+      type = Window
+  [[Galaxy]]
+    [[[child1]]]
+      parent = window0
+      profile = Galaxy
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_image = None
+    login_shell = True
+  [[Galaxy]]
+    background_color = "#1d2837"
+    background_image = None
+    cursor_color = "#bbbbbb"
+    foreground_color = "#ffffff"
+    login_shell = True
+    palette = "#000000:#f9555f:#21b089:#fef02a:#589df6:#944d95:#1f9ee7:#bbbbbb:#555555:#fa8c8f:#35bb9a:#ffff55:#589df6:#e75699:#3979bc:#ffffff"
